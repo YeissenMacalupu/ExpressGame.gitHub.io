@@ -1,0 +1,121 @@
+/* estas son la redes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Comentarios*/
+
+.comentarios {
+    width: 700px;
+    height: auto;
+    margin: 10px 0px 0px 500px;
+    background-color: black;
+}
+
+
+/* divs*/
+
+.red-general {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.subred-general {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: black;
+}
+
+.red {
+    width: 300px;
+    height: auto;
+    border-radius: 48px;
+    ackground-color: #bd8a77;
+    margin: 20px 120px 0px 190px;
+}
+
+.red-final {
+    width: 125px;
+    height: auto;
+    ackground-color: #ffa700;
+}
+
+
+/*logo redes - red*/
+
+.expressimg {
+    width: 200px;
+    height: 101px;
+    margin: 10px 0px 0px 150px;
+}
+
+
+/*lineas link - red*/
+
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a:hover {
+    color: #ffa700;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.red ul li {
+    margin: 15px 0px 0px 0px;
+}
+
+
+/*img redes - red*/
+
+.face {
+    background-color: rgba(24, 119, 242, .2);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #1877f2;
+}
+
+.insta {
+    background-color: rgba(189, 138, 119, .2);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #bd8a77;
+}
+
+.twitter {
+    background-color: rgb(0 185 255 / 20%);
+    border-radius: 100%;
+    padding: 12px;
+    fill: #00aced;
+}
+
+.red-final a {
+    text-decoration: none;
+    color: white;
+}
+
+.red-final a:hover {
+    color: #ffa700;
+}
+
+.redes001 {
+    float: right;
+    margin: 15px 0px 0px 0px;
+}
+
+.redes002 {
+    float: right;
+    margin: 15px 18px 0px 0px;
+}
